@@ -1,0 +1,35 @@
+nav {
+  background: rgba(8, 17, 31, 0.72);
+  width: max-content;
+  padding: 0.8rem 1rem;
+  z-index: 20;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1.25rem;
+  display: flex;
+  gap: 0.45rem;
+  border-radius: 999px;
+  backdrop-filter: blur(18px);
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  box-shadow: 0 16px 40px rgba(2, 8, 23, 0.3);
+}
+
+nav a {
+  width: 2.85rem;
+  height: 2.85rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+nav a.active {
+  background: linear-gradient(135deg, var(--color-primary), #7dd3fc);
+  color: #03131a;
+}

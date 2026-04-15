@@ -1,0 +1,35 @@
+.vision__container {
+  max-width: 52rem;
+  padding: 2rem;
+  border-radius: var(--radius-lg);
+  background:
+    linear-gradient(135deg, rgba(94, 234, 212, 0.12), rgba(37, 99, 235, 0.08)),
+    var(--color-panel);
+  border: 1px solid rgba(94, 234, 212, 0.18);
+  box-shadow: var(--shadow-md);
+}
+
+.vision__lead {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+.vision__container p + p {
+  margin-top: 1.25rem;
+}
+
+.vision__container p {
+  color: var(--color-muted);
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .vision__container {
+    padding: 1.4rem;
+  }
+
+  .vision__lead {
+    font-size: 1.05rem;
+  }
+}

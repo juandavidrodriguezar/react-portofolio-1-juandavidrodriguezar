@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 300" preserveAspectRatio="xMidYMax meet">
+  <g fill="currentColor">
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  HARBOUR BRIDGE                         -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <!-- Arch ring: outer peak ~y=37, inner peak ~y=60 -->
+    <!-- Quadratic bezier peaks calculated for deck at y=215 -->
+    <path d="M -10 215 Q 207 -145 422 215 Q 207 -99 -10 215 Z"/>
+
+    <!-- Road deck -->
+    <rect x="-10" y="207" width="442" height="15"/>
+
+    <!-- Right bridge approach/base -->
+    <polygon points="422,222 452,238 452,300 422,300"/>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  OPERA HOUSE                            -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <!-- Stepped platform / podium -->
+    <rect x="458" y="244" width="192" height="9"/>
+    <rect x="466" y="233" width="176" height="13"/>
+
+    <!-- Shell 1 — large pointed sail (left) -->
+    <path d="M 478 246 C 474 205 482 158 502 132 C 522 158 530 205 527 246 Z"/>
+
+    <!-- Shell 2 — medium sail -->
+    <path d="M 525 246 C 522 212 529 176 544 161 C 559 176 565 212 562 246 Z"/>
+
+    <!-- Shell 3 — small sail -->
+    <path d="M 561 246 C 559 223 564 202 574 196 C 584 202 589 223 587 246 Z"/>
+
+    <!-- Shell 4 — tiny rear sail -->
+    <path d="M 586 246 C 585 230 589 217 596 213 C 603 217 607 230 606 246 Z"/>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  CBD BUILDINGS — LEFT CLUSTER           -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <rect x="648"  y="178" width="32" height="122"/>
+    <rect x="682"  y="157" width="40" height="143"/>
+    <rect x="724"  y="167" width="30" height="133"/>
+    <rect x="756"  y="138" width="46" height="162"/>
+    <rect x="804"  y="152" width="36" height="148"/>
+    <rect x="842"  y="168" width="32" height="132"/>
+    <rect x="876"  y="154" width="44" height="146"/>
+    <rect x="922"  y="126" width="38" height="174"/>
+    <rect x="962"  y="144" width="44" height="156"/>
+    <rect x="1008" y="162" width="36" height="138"/>
+    <rect x="1046" y="174" width="40" height="126"/>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  SYDNEY TOWER / CENTREPOINT             -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <!-- Main shaft — very thin, very tall -->
+    <rect x="1094" y="16" width="7" height="284"/>
+
+    <!-- Lower observation pod (widest section) -->
+    <rect x="1075" y="82" width="42" height="28"/>
+
+    <!-- Upper rotating restaurant pod (slightly narrower) -->
+    <rect x="1080" y="56" width="32" height="28"/>
+
+    <!-- Antenna -->
+    <rect x="1096" y="5"  width="4"  height="13"/>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  CBD BUILDINGS — RIGHT CLUSTER          -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <rect x="1128" y="162" width="38" height="138"/>
+    <rect x="1168" y="177" width="42" height="123"/>
+    <rect x="1212" y="152" width="36" height="148"/>
+    <rect x="1250" y="169" width="44" height="131"/>
+    <rect x="1296" y="184" width="38" height="116"/>
+    <rect x="1336" y="198" width="44" height="102"/>
+    <rect x="1382" y="212" width="36" height="88"/>
+    <rect x="1420" y="224" width="20" height="76"/>
+
+    <!-- ═══════════════════════════════════════ -->
+    <!--  GROUND LINE                            -->
+    <!-- ═══════════════════════════════════════ -->
+    <rect x="0" y="297" width="1440" height="3"/>
+
+  </g>
+</svg>

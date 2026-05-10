@@ -23,7 +23,7 @@ const data=[
   {
     avatar:JEAN,
     name:'Jean Carlo Jimenez',
-    review: '(+57 3113973783) Machine Learning Engineer at Mercado Libre: "I had the pleasure of studying and working alongside Juan in our research with machine learning for radiology. We collaborated as co-authors on an international paper focused on dose prediction. Throughout our time together, I was consistently impressed by Juan breadth of knowledge, creative thinking, and genuine passion for the field. I highly recommend him for any future endeavors."'
+    review: '(+57 315 2026737) Sr DS Engineer at Mercado Libre: "I had the pleasure of studying and working alongside Juan in our research with machine learning for radiology. We collaborated as co-authors on an international paper focused on dose prediction. Throughout our time together, I was consistently impressed by Juan breadth of knowledge, creative thinking, and genuine passion for the field. I highly recommend him for any future endeavors."'
   },
   {
     avatar:ENRIQUE,
@@ -33,7 +33,7 @@ const data=[
   {
     avatar:CAMILO,
     name:'Camilo Uribe',
-    review: '(+57 3044062477) Data engineer specialist at Tachyus Corp: I met Juan when we were in a class of a physics subject at our university. When we started to know each other, we become friends really quickly. I think we have a lot in common and like the same things.  I can describe him as an excellent human being with moral solid values. He is one in a thousand, for his particular enthusiasm in learning and describing the world. He used one phrase always: In this vast universe, we are a breath, so lets make it count, which always motivated me to be better and think that it can be my last day on earth.'
+    review: '(+61 490 337 658) Data engineer specialist at Tachyus Corp: I met Juan when we were in a class of a physics subject at our university. When we started to know each other, we become friends really quickly. I think we have a lot in common and like the same things.  I can describe him as an excellent human being with moral solid values. He is one in a thousand, for his particular enthusiasm in learning and describing the world. He used one phrase always: In this vast universe, we are a breath, so lets make it count, which always motivated me to be better and think that it can be my last day on earth.'
   },
   {
     avatar:MATEO,

@@ -9,13 +9,19 @@ import Portfolio from "./components/portfolio/Portfolio"
 import Services from "./components/services/Services"
 import Testimonials from "./components/testimonials/Testimonials"
 import Vision from "./components/vision/Vision"
+import Projects from "./components/projects/Projects"
+import {ReactComponent as SydneySkyline} from "./assets/sydney-skyline.svg"
 const App = () => {
   return (
     <>
+    <div className="skyline-bg" aria-hidden="true">
+      <SydneySkyline/>
+    </div>
     <Header/>
     <Nav/>
     <About/>
     <Vision/>
+    <Projects/>
     <Experience/>
     <Services/>
     <Portfolio/>
